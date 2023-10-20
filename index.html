@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TikTok Video Downloader</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+  <body>
+    <h1>TikTok Video Downloader</h1>
+    <input
+      type="text"
+      id="tiktokUrl"
+      placeholder="Paste the TikTok video URL here"
+      maxlength="100"
+    />
+    <button onclick="downloadTikTokVideo()">Download</button>
+    <div id="videoInfo"></div>
+    <a id="downloadLink" style="display: none" download="video_no_watermark.mp4"
+      >Unduh Video No Watermark</a
+    >
+    <script src="/js/scrrip.js"></script>
+  </body>
+</html>
